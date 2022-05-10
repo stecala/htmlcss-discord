@@ -118,6 +118,9 @@ h1{
     padding-bottom: 175px;
 }
 
+.txt-button, .fa-solid{
+    font-size: 18px;
+}
 /* main */
 .container, .container-big{
     margin: 0 auto;
@@ -139,13 +142,14 @@ h1{
 
 .wave{
     opacity: 0.1;
-    filter: alpha(opacity=40);
+    display: block;
+    height: 50px;
 }
 
 .wave2{
     opacity: 0.1;
-    filter: alpha(opacity=40);
     transform:rotate(180deg);
+    height: 50px;
 }
 
 .box-section1{
