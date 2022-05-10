@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,18 +7,35 @@
 
 body{
     background-color: white;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 img{
     width: 100%;
 }
 
-.border-dash{
-    border: black dashed 3px;
+.btn{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0px;
+    display: inline-block;
 }
+
 /* colori di sfondo */
-.bgcolor1{
-    background-color: blue;
+
+.btn-color1{
+    background-color: white;
+    color: black;
+}
+
+.btn-color2{
+    background-color: rgb(35, 39, 42);
+    color: white;
+}
+
+.btn-color1{
+    background-color: white;
+    color: black;
 }
 
 .bgcolor2{
@@ -28,8 +46,12 @@ img{
     background-color: rgb(49, 47, 47);
 }
 /* header */
+header{
+    color: white;
+}
+
 .background-head{
-    background-color: lightblue;
+    background-color: rgb(37, 94, 233);
     width: 100%;
     padding: 10px 0;
 }
@@ -37,9 +59,7 @@ img{
 .cont-head{
     display: flex;
     width: 70%;
-    background-color: burlywood;
     margin: 0 auto;
-    height: 40px;
 }
 
 .menu ul{
@@ -54,6 +74,7 @@ img{
 .menu ul li a{
     text-decoration: none;
     padding: 10px;
+    color: white;
 }
 
 .menu{
@@ -79,6 +100,22 @@ img{
     align-items: center;
     padding: 0 10px;
 }
+
+.border-bot{
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    font-size: 25px;
+}
+
+h1{
+    line-height: 120px;
+    font-size: 50px;
+}
+
+.cont-btn{
+    padding: 30px;
+}
+
 /* main */
 .container, .container-big{
     margin: 0 auto;
@@ -97,13 +134,8 @@ img{
 
 .box-section1{
     width: 50%;
-    height: 90%;
-    background-color: rgb(222, 51, 168);
-    border-radius: 7px;
-}
-
-.border-bot{
-    border-bottom: solid 3px rgba(131,238,255,0.6);
+    text-align: center;
+    line-height: 35px;
 }
 
 .box-section2{
@@ -140,7 +172,6 @@ img{
     width: 25%;
     height: 100%;
     background-color: aqua;
-    border: white dashed 3px;
 }
 /* footer */
 footer{
