@@ -23,11 +23,6 @@ img{
 
 /* colori di sfondo */
 
-.btn-color1{
-    background-color: white;
-    color: black;
-}
-
 .btn-color2{
     background-color: rgb(35, 39, 42);
     color: white;
@@ -38,8 +33,13 @@ img{
     color: black;
 }
 
+.btn-color3{
+    color: white;
+    background-color: #7289DA;
+}
+
 .bgcolor2{
-    background-color: grey;
+    background-color: #E6E6E6;
 }
 
 .bgcolor3{
@@ -108,12 +108,14 @@ header{
 }
 
 h1{
-    line-height: 120px;
+    padding-top: 150px;
+    padding-bottom: 50px;
     font-size: 50px;
 }
 
 .cont-btn{
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 175px;
 }
 
 /* main */
@@ -121,39 +123,59 @@ h1{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 50px;
 }
 
-.container{
-    height: 600px;
+.head-text{
+    font-size: 55px;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
 
-.container-big{
-    height: 800px;
+.low-text{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.wave{
+    opacity: 0.1;
+    filter: alpha(opacity=40);
+}
+
+.wave2{
+    opacity: 0.1;
+    filter: alpha(opacity=40);
+    transform:rotate(180deg);
 }
 
 .box-section1{
     width: 50%;
     text-align: center;
-    line-height: 35px;
+    line-height: 30px;
 }
 
 .box-section2{
-    width: 40%;
-    height: 90%;
-    background-color: dodgerblue;
+    width: 37%;
 }
 
 .box-section3{
-    width: 30%;
-    height: 90%;
-    background-color: pink;
+    width: 17%;
 }
 
 .box-section4{
     width: 70%;
     height: 90%;
-    background-color: green;
+    text-align: center;
+}
+
+.star{
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 25px;
 }
 
 .box-section5{
