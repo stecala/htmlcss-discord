@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+img{
+    width: 100%;
+}
+
+.border-dash{
+    border: black dashed 3px;
+}
+/* colori di sfondo */
+.bgcolor1{
+    background-color: blue;
+}
+
+.bgcolor2{
+    background-color: grey;
+}
+
+.bgcolor3{
+    background-color: rgb(49, 47, 47);
+}
+/* header */
+.background-head{
+    background-color: lightblue;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.cont-head{
+    display: flex;
+    width: 70%;
+    background-color: burlywood;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu{
+    text-align: center;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    text-align: right;
+    width: 20%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+/* main */
+.container, .container-big{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 600px;
+}
+
+.container-big{
+    height: 800px;
+}
+
+.box-section1{
+    width: 50%;
+    height: 90%;
+    background-color: rgb(222, 51, 168);
+    border-radius: 7px;
+}
+
+.border-bot{
+    border-bottom: solid 3px rgba(131,238,255,0.6);
+}
+
+.box-section2{
+    width: 40%;
+    height: 90%;
+    background-color: dodgerblue;
+}
+
+.box-section3{
+    width: 30%;
+    height: 90%;
+    background-color: pink;
+}
+
+.box-section4{
+    width: 70%;
+    height: 90%;
+    background-color: green;
+}
+
+.box-section5{
+    width: 20%;
+    height: 90%;
+    background-color: salmon;
+}
+
+.box-section6{
+    width: 50%;
+    height: 90%;
+    display: flex;
+}
+
+.box-section7{
+    width: 25%;
+    height: 100%;
+    background-color: aqua;
+    border: white dashed 3px;
+}
+/* footer */
+footer{
+    padding: 10px;
+    width: 100%; 
+}
+
+.cont-foot{
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    width: 70%;
+    height: 50px;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+.logo-foot{
+    background-color: grey;
+    width: 60px;
+    text-align: center;
+}
